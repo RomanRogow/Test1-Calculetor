@@ -1,6 +1,7 @@
 calc = input('Введите действие через пробел:  ') # Просим ввести у словие
 
 namber = calc.split() #разделение 
+    a = int(namber[0]) #Присвоеник к разделам операнд
     b = int(namber[2])
     c = namber[1]  
     print(a,c,b,'будет:')
